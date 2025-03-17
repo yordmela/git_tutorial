@@ -20,4 +20,8 @@ class Solution:
                 merged[-1][1]= max(merged[-1][1], interval[1])
         return merged
 
+
+intervals = [[1,3],[2,6],[8,10],[15,18]]
+print(merge(self,intervals))
+
             
